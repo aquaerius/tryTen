@@ -25,7 +25,7 @@ SECRET_KEY = 'c)^&ymt#u74&xy!b!+i8yf*hs2g1k4r672a=^fm7&z!)%yr8ao'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['aquaerius.pythonanywhere.com',]
 
 
 # Application definition
