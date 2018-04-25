@@ -19,5 +19,5 @@ import home
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path(r'^$', home.views.index, name='index'),
+    path(r'^$', home.views.index, name='index'),
 ]
