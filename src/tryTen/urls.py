@@ -19,5 +19,5 @@ from home import urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path(r'^$', include(home.urls)),
+    path(r'^$', include('home.urls')),
 ]
