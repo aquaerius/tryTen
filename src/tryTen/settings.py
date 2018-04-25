@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['aquaerius.pythonanywhere.com',]
 # Application definition
 
 INSTALLED_APPS = [
+    'home',
     'blog',    
     'django.contrib.admin',
     'django.contrib.auth',
