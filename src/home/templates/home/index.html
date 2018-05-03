@@ -1,22 +1,11 @@
 <html>
     <head>
-        <title>Vesca - Planning, Scheduling & Engineering</title>
-        {% include 'material/includes/material_css.html' %}
-        {% load static %}
-        <script src="{% static 'material/js/jquery.js' %}"></script>
-        {% include 'material/includes/material_js.html' %}
+        <title>Vesca - Planning, Scheduling &amp; Engineering</title>        
     </head>
     <body>
         <div>
             <h1><a href="./blog/">Blog</a></h1>
-        </div>
-        {% load material_form %}
-        <form method="POST">
-            {% csrf_token %}
-            {% form form=form %}{% endform %}
-            <button type="submit" name="_submit" class="btn">Submit</button>
-        </form>
-    
+        </div>        
     </body>
 </html>
 
