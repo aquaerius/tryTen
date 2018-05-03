@@ -1,6 +1,10 @@
 <html>
     <head>
         <title>Vesca - Planning, Scheduling & Engineering</title>
+        {% include 'material/includes/material_css.html' %}
+        {% load static %}
+        <script src="{% static 'material/js/jquery.js' %}"></script>
+        {% include 'material/includes/material_js.html' %}
     </head>
     <body>
         <div>
@@ -8,14 +12,11 @@
         </div>
         {% load material_form %}
         <form method="POST">
-        {% csrf_token %}
-        {% form form=form %}{% endform %}
-        <button type="submit" name="_submit" class="btn">Submit</button>
-    </form>
-    {% include 'material/includes/material_css.html' %}
-        {% load static %}
-    <script src="{% static 'material/js/jquery.js' %}"></script>
-    {% include 'material/includes/material_js.html' %}
+            {% csrf_token %}
+            {% form form=form %}{% endform %}
+            <button type="submit" name="_submit" class="btn">Submit</button>
+        </form>
+    
     </body>
 </html>
 
