@@ -51,7 +51,16 @@
 			"file": "src/profiles/models.py",
 			"settings":
 			{
-				"buffer_size": 172,
+				"buffer_size": 678,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/blog/views.py",
+			"settings":
+			{
+				"buffer_size": 302,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -90,6 +99,7 @@
 	"expanded_folders":
 	[
 		"/Users/lapdog/GitHub/tryTen/src",
+		"/Users/lapdog/GitHub/tryTen/src/blog",
 		"/Users/lapdog/GitHub/tryTen/src/profiles"
 	],
 	"file_history":
@@ -181,7 +191,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -190,15 +200,45 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 172,
+						"buffer_size": 678,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								172,
-								172
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/blog/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								302,
+								302
 							]
 						],
 						"settings":
