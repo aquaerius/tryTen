@@ -7,5 +7,4 @@ urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^accounts/login/$', authViews.login, name='login'),
     url(r'^accounts/logout/$', authViews.logout, name='logout', kwargs={'next_page': '/'}),
-
 ]
