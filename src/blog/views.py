@@ -95,5 +95,5 @@ def comment_approve(request, pk):
 	comment.approve()
 	post=comment.post
 	postPk=post.pk
-	return redirect('post_detail', {'post':post, 'pk'=postPk}, )
+	return redirect('post_detail', {'post':post, 'pk':postPk}, )
 
