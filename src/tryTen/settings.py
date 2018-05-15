@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'profiles',
     'psychWard',
+    'scheduling',
 ]
 
 MIDDLEWARE = [

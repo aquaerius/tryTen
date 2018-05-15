@@ -1,4 +1,14 @@
-{% extends 'home/base.html' %}
+{% extends 'home/navigation.html' %}
+
+
+{% block links %}
+
+{% for link in css %}
+    <link href='{{link}}' rel='stylesheet' type='text/css'>
+{% endfor %}
+
+{% endblock %}
+
 
 {% block content %}
 <header>
@@ -6,4 +16,5 @@
     <p>The place to bitch and moan, groan and release your devFrus.</p>
     <p>You will be held intern until you are clear of bugs, or until our doctor says you are free to leave.</p>
 </header>
+<iframe class="comic-iframe" src="https://c.xkcd.com/random/comic/" alt="You'll laugh"></iframe>
 {% endblock %}

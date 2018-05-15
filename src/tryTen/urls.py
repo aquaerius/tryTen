@@ -18,11 +18,13 @@ from django.urls import path, include
 from home import urls
 from blog import urls
 from psychWard import urls
+from scheduling import urls
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path(r'', include('home.urls')),
     path(r'blog/', include('blog.urls')),
-    path(r'/dev/psychward/', include('psychWard.urls')),
+    path(r'dev/psychward/', include('psychWard.urls')),
+    path(r'scheduling/', include('scheduling.urls')),
 ]
