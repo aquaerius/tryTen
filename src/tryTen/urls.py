@@ -19,6 +19,7 @@ from home import urls
 from blog import urls
 from psychWard import urls
 from scheduling import urls
+from contact import urls
 
 
 urlpatterns = [
@@ -27,4 +28,5 @@ urlpatterns = [
     path(r'blog/', include('blog.urls')),
     path(r'dev/psychward/', include('psychWard.urls')),
     path(r'scheduling/', include('scheduling.urls')),
+    path(r'contact/', include('contact.urls')),
 ]
