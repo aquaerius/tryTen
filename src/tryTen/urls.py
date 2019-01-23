@@ -29,4 +29,5 @@ urlpatterns = [
     path(r'dev/psychward/', include('psychWard.urls')),
     path(r'scheduling/', include('scheduling.urls')),
     path(r'contact/', include('contact.urls')),
+    path(r'email/', include('sendemail.urls')),
 ]
