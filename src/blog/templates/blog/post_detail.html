@@ -1,7 +1,6 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
-<article>
 <div class="post">
     {% if post.published_date %}
     <div class="date">
@@ -36,5 +35,5 @@
 {% empty %}
     <p>No comments here yet :(</p>
 {% endfor %}
-</article>
+
 {% endblock %}

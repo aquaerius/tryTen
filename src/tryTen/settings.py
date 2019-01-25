@@ -40,10 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'profiles',
-    'psychWard',
-    'scheduling',
-    'contact',
-    'sendemail',
 ]
 
 MIDDLEWARE = [
@@ -133,7 +129,3 @@ if DEBUG:
     ]
 
 LOGIN_REDIRECT_URL = '/'    
-
-#Email backend
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-
