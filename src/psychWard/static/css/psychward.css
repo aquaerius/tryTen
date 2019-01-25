@@ -1,0 +1,6 @@
+.comic-iframe {
+    overflow-x: auto;
+    width: 100%;
+    height: 65vh;
+    margin-bottom: 1rem;
+}
