@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'scheduling',
     'contact',
     'sendemail',
+    'meta',
 ]
 
 MIDDLEWARE = [
