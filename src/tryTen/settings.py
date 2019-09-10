@@ -27,6 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['aquaerius.pythonanywhere.com',]
 
+# Use wordpress_api
+WP_URL = 'http://35.242.219.8/'
+BLOG_POSTS_PER_PAGE = 12
+
 
 # Application definition
 
